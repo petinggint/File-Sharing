@@ -6,7 +6,7 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/OTANCABUL/File-Sharing",
+  "repository": "https://github.com/petinggint/File-Sharing",
   "logo": "https://telegra.ph/file/84406e4ebefbab4aad1a1.jpg",
   "env": {
     "TG_BOT_TOKEN": {
@@ -15,15 +15,15 @@
     },
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
-      "value": "thisrama"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "Masukan User ID Telegram untuk Owner BOT",
-      "value": "1936017380"
+      "value": ""
     },
     "ADMINS": {
       "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
-      "value": "0"
+      "value": ""
     },
     "APP_ID": {
       "description": "Dapatkan APP ID di web my.telegram.org",
@@ -43,19 +43,19 @@
     },
     "CHANNEL_ID": {
       "description": "Masukan ID Channel Untuk [Channel Database]",
-      "value": "-100"
+      "value": ""
     },
     "FORCE_SUB_CHANNEL": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
-      "value": "0"
+      "value": ""
     },
     "FORCE_SUB_GROUP": {
       "description": "Masukan ID dari Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
-      "value": "0"
+      "value": ""
     },
     "FORCE_SUB_GROUP2": {
       "description": "Masukan ID Group / Channel Untuk Wajib Subscribe, Bila Ga kepake isi 0",
-      "value": "0"
+      "value": ""
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
@@ -74,7 +74,7 @@
     {
     "plan": "heroku-postgresql",
       "options": {
-        "version": "12"
+        "version": "14"
       }
     }
   ],
